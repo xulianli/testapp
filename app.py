@@ -4,7 +4,7 @@ from testapp import *
 app = Dash(__name__)
 server = app.server
 app.layout = html.Div([
-    html.H1('You Passed'),
+    html.H1('Passed'),
     github_info_header(),
     html.Img(src="assets/batman.png")
 ])
